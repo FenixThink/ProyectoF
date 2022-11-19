@@ -1,0 +1,223 @@
+.carrito{
+    align-self: center;
+    margin-left: 10%;
+    color: white;
+    cursor: pointer;
+}
+.textimg{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 5%;
+    font-weight: bolder;
+}
+.carrousel{
+    height: 530px;
+    width: 100%;
+    overflow: hidden;
+}
+.prueba{
+    width: 100%;
+    height: 100%;
+}
+.center{
+    display: flex;
+    /* background-color: red; */
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(209,205,209,1);
+-moz-box-shadow: 6px 6px 5px 0px rgba(209,205,209,1);
+box-shadow: 6px 6px 5px 0px rgba(209,205,209,1);
+width: 100%;
+}
+.center1{
+    display: flex;
+    /* background-color: red; */
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(209,205,209,1);
+-moz-box-shadow: 6px 6px 5px 0px rgba(209,205,209,1);
+box-shadow: 6px 6px 5px 0px rgba(209,205,209,1);
+width: 100%;
+height: 100%;
+}
+.center2{
+    /* background-color: red; */
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(209,205,209,1);
+-moz-box-shadow: 6px 6px 5px 0px rgba(209,205,209,1);
+box-shadow: 6px 6px 5px 0px rgba(209,205,209,1);
+width: 100%;
+height: 100%;
+}
+.conta{
+    width: 100%;
+    height: 100%;
+}
+.partMidOne{
+    display: flex;
+    justify-content: space-between;
+}
+.partMidTwo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.img{
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+}
+.imgDown{
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+    align-items: center;
+    align-self: center;
+}
+.imagencita{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.text{
+    width: 100%;
+    height: 100%;
+    margin: 5%;
+}
+h3{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: black;
+    width: 86%;
+}
+.price{
+    font-size: xx-large;
+    font-weight: 600;
+    color: rgb(34, 90, 34);
+    margin-bottom: 2%;
+}
+.buttonsLeft{
+    display: flex;
+    justify-content: space-between;
+}
+.buttoncito{
+    display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: solid 2px rgb(34, 90, 34);
+  text-align: center;
+  margin-right: 3%;
+  padding-top: 7%;
+    /* border-radius: 200px;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    margin-left: 5%;
+    cursor: pointer; */
+}
+.padding{
+    padding-right: 10%;
+}
+.descripcion{
+    font-weight: bolder;
+    font-size: larger;
+}
+.minides{
+    margin-top: 5%;
+    font-size: large;
+}
+.removeCursorPinter{
+    cursor: default;
+}
+.añadir{
+    margin-top: 2.5%;
+    height: 25%;
+    width: 35%;
+}
+.footer{
+    margin-top: 5%;
+    text-align: center;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+
+.imagencitaAbajo{
+    max-width: 100%;
+}
+.abajoh3{
+    max-width: 90%;
+    text-align: justify;
+    overflow: hidden;
+    word-break:break-all;
+    height: 20vh;
+}
+.price1{
+    display: block;
+    font-size: xx-large;
+    font-weight: 600;
+    color: rgb(34, 90, 34);
+    margin-bottom: 2%;
+}
+.downButton{
+    font-weight: bolder;
+    display: block;
+    width: 50%;
+    height: 25%;
+    margin: auto;
+}
+.producFoot{
+    margin: auto;
+}
+@media (max-width: 1400px) {
+    .abajoh3{
+        max-width: 90%;
+        text-align: justify;
+        overflow: hidden;
+        word-break:break-all;
+        height: 40vh;
+    }
+  }
+
+  .left{
+    border-right: 1px black solid;
+  }
+  .imagencitaModal{
+    max-width: 100%;
+  }
+
+  .parent {
+    display: grid;
+    grid-template-columns: 1fr 2fr repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 1 / 3 / 2 / 4; }
+    .div4 { grid-area: 1 / 4 / 2 / 5; }
+
+    .parent1 {
+        display: grid;
+        grid-template-columns: 1fr 2fr repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .div11 { grid-area: 1 / 4 / 2 / 6; }
+        .div21 { grid-area: 2 / 4 / 3 / 5; }
+        .div31 { grid-area: 2 / 5 / 3 / 6; }
+    
+    .priceModal{
+        margin-top: 40%;
+        font-weight: bolder;
+        color: rgb(34, 90, 34);
+    }
+    .descrpModal{
+    font-weight: bolder;
+    }
+    .negrilla{
+        font-weight: bolder;
+    }
+    .foot{
+        margin: auto;
+    }
